@@ -25,8 +25,8 @@ const ExampleComponent = () => {
         Success Color
       </div>
 
-      <div className="bg-coloring p-2 text-black mt-2 rounded">
-        New color 
+      <div className="bg-coloring-dark p-2 text-black mt-2 rounded">
+        New color is added now soon as good 
       </div>
     </div>
   );
