@@ -15,7 +15,7 @@ const ExampleComponent = () => {
       <div className="bg-danger text-white p-2 rounded mt-2">
         Danger Color
       </div>
-      <div className="bg-warning text-black p-2 rounded mt-2">
+      <div className="bg-warning text-black p-2 rounded mt-2 ">
         Warning Color
       </div>
       <div className="bg-info text-white p-2 rounded mt-2">
