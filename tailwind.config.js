@@ -51,7 +51,6 @@ module.exports = {
 
         coloring: {
           light: "#f89b29",
-          DEFAULT: '#10B981',
           dark: "#ff1b6b",
         },
       },
