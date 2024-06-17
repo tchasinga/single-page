@@ -26,7 +26,7 @@ const ExampleComponent = () => {
       </div>
 
       <div className="bg-coloring-light p-2 text-black mt-2">
-        New color is added now soon as good 
+        New color is added now soon as  
       </div>
     </div>
   );
