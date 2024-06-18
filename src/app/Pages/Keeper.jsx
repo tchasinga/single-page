@@ -12,7 +12,6 @@ export default function Keeper() {
     >
       <div className="max-w-5xl mx-auto w-full">
           <Navbars/>
-          
       </div>
     </div>
   );
