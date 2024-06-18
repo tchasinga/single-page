@@ -3,17 +3,16 @@ import Oneimg from './../../app/Image/pexelsphoto.jpeg'; // Correctly specify th
 import Navbars from './Navbars';
 import Small from './Small';
 
-
 export default function Keeper() {
   return (
     <div
-      className="h-[550px]"
+      className="relative h-[550px]" // Added relative positioning here
       style={{
         background: `linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url(${Oneimg.src}) center / cover no-repeat`,
       }}
     >
-          <Navbars/>
-          <Small/>
+      <Small/>
+      <Navbars/>
     </div>
   );
 }
