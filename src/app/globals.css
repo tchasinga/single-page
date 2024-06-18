@@ -37,3 +37,9 @@ body {
     transform: rotate(+360deg);
   }
 }
+
+
+.nodes:nth-child(even){
+  display: flex;
+  flex-direction: row-reverse;
+}
