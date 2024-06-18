@@ -14,18 +14,18 @@ export default function Navbars() {
     ];
 
     return (
-        <nav className='fixed font-poppins font-sans w-full left-0 top-0 z-[999] text-gray-900'>
+        <nav className='fixed font-poppins font-sans w-full left-0 top-0 z-[999]'>
             <div className="flex items-center justify-between">
                 <div className="mx-7">
-                    <h4 className="text-sm myheader uppercase font-bold">
-                        Tcha<span className="text-cyan-600">si</span>nga
+                    <h4 className="text-sm myheader uppercase font-bold text-slate-200">
+                        Jet-codesign
                     </h4>
                 </div>
 
                 <div className='text-gray-900 md:block hidden px-7 py-2 font-medium'>
-                    <ul className="flex items-center font-poppins font-sans gap-1 py-2 text-sm">
+                    <ul className="flex items-center font-poppins font-sans py-2 text-sm">
                         {menuLinks.map((menu, i) => (
-                            <li key={i} className="px-6 font-poppins font-sans hover:text-cyan-600">
+                            <li key={i} className="px-3 font-poppins font-sans hover:text-cyan-600">
                                 <a href={menu.link}>{menu.name}</a>
                             </li>
                         ))}
