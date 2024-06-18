@@ -25,7 +25,7 @@ export default function Navbars() {
                 <div className='text-gray-900 md:block hidden px-7 py-2 font-medium'>
                     <ul className="flex items-center font-poppins font-sans py-2 text-sm">
                         {menuLinks.map((menu, i) => (
-                            <li key={i} className="px-3 font-poppins font-sans hover:text-cyan-600">
+                            <li key={i} className="px-3 text-white font-poppins font-sans hover:text-cyan-600">
                                 <a href={menu.link}>{menu.name}</a>
                             </li>
                         ))}
