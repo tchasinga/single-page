@@ -6,7 +6,7 @@ import Keeper from "./Pages/Keeper";
 export default function Home() {
   
   return (
-    <main className="max-w-4xl mx-auto w-full">
+    <main className="">
       <Keeper/>
     </main>
   );
