@@ -9,7 +9,7 @@ export default function Today() {
             {
                 managerdata.map((people, index) => (
                     <motion.div
-                        className="flex items-center justify-between align-middle reversingflex flex-wrap"
+                        className="border-b-2 flex items-center justify-between align-middle reversingflex flex-wrap"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: index * 1 }}
