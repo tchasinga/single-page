@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <main className="">
       <Keeper/>
-      
-      <div className="max-w-4xl mx-auto w-full max-h-screen pt-5">
+
+      <div className="max-w-5xl mx-auto w-full max-h-screen pt-5">
          <Today/>
       </div>
     </main>
