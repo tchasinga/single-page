@@ -50,7 +50,14 @@ body {
     left: -8%;
     width: 95%;
   }
-  
+
+  .reversingflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 
 }
 
