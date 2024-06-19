@@ -34,6 +34,11 @@
   }
 }
 
+.myfirstgridin{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
 .reversingflex:nth-child(even) {
   display: flex;
   flex-direction: row-reverse;
@@ -72,9 +77,9 @@
     width: 95%;
   }
 
-  /* .reversingflex{
-    display: flex;
-  } */
+ .mypadding{
+  padding: 20px;
+ }
 
   .typographie {
     padding: 20px;

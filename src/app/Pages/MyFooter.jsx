@@ -22,7 +22,7 @@ export default function MyFooter() {
           </div>
         </div>
 
-        <div className="text-white">
+        <div className="text-slate-950">
           <h1 className="text-lg font-medium pb-2">Categories</h1>
           <div className="flex flex-col gap-2">
             <p className="text-sm text-slate-950">Basic Yoga</p>
@@ -32,8 +32,8 @@ export default function MyFooter() {
           </div>
         </div>
 
-        <div className="text-white">
-          <h1 className="text-lg font-medium pb-2">Help</h1>
+        <div className="text-slate-950">
+          <h1 className="text-lg font-medium pb-2 text-slate-950">Help</h1>
           <div className="flex flex-col gap-2">
             <p className="text-sm text-slate-950">Account</p>
             <p className="text-sm text-slate-950">Support Center</p>
@@ -42,7 +42,7 @@ export default function MyFooter() {
           </div>
         </div>
 
-        <div className="text-white">
+        <div className="text-slate-950">
           <h1 className="text-lg font-medium pb-2">Contact US</h1>
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2 cursor-pointer">
@@ -78,7 +78,7 @@ export default function MyFooter() {
      
       <div className="relative mx-auto">
       <hr className="w-[82%] max-w-6xl mx-auto text-slate-200" />
-        <div className="flex items-center justify-evenly pt-5 bottom-0 left-0 right-0 flex-wrap ">
+        <div className="flex items-center justify-evenly pt-5 bottom-0 left-0 right-0 flex-wrap mypadding">
           <div className="flex items-center gap-3">
             <IoFitness className="text-4xl text-slate-900 mytext animate__bounceIn animate__animated" />
             <h1 className="text-lg font-bold text-slate-950">Fitness room</h1>
