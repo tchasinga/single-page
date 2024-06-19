@@ -1,13 +1,21 @@
-import React from 'react'
-import managerdata from '../Data/dating.js'
+"use client"
+import React from 'react';
+import { motion } from 'framer-motion';
+import managerdata from '../Data/dating.js';
 
 export default function Today() {
     return (
-        <div className="">
+        <div>
             {
-                managerdata.map((people) => (
-                    <div className="flex items-center justify-between align-middle reversingflex">
-                        <div className="">
+                managerdata.map((people, index) => (
+                    <motion.div
+                        className="flex items-center justify-between align-middle reversingflex"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: index * 1 }}
+                        key={index}
+                    >
+                        <div>
                             <h1 className="text-slate-800 py-2 uppercase text-4xl font-bold ">{people.Concept}</h1>
                             {people.Lines}
                             <p className="text-sm text-slate-700 pt-2 max-w-lg">{people.detailing}</p>
@@ -15,9 +23,9 @@ export default function Today() {
                         <div className="text-transparent bg-cover bg-clip-text" style={{ backgroundImage: `url(${people.bgGround})` }}>
                             <h1 className="uppercase text-[300px] font-black">{people.Mynumber}</h1>
                         </div>
-                    </div>
+                    </motion.div>
                 ))
             }
         </div>
-    )
+    );
 }

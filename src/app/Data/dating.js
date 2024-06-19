@@ -1,6 +1,6 @@
 const managerdata = [
     {
-        id: 1,
+        id: 0,
         Concept: "Research & Analyze",
         Lines: <hr className="w-28" />,
         Mynumber: "01",
@@ -8,7 +8,7 @@ const managerdata = [
         bgGround: "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-        id: 2,
+        id: 1,
         Concept: "Concept & Sketch",
         Lines: <hr className="w-28" />,
         Mynumber: "02",
@@ -16,7 +16,7 @@ const managerdata = [
         bgGround: "https://images.pexels.com/photos/65438/pexels-photo-65438.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-        id: 3,
+        id: 2,
         Concept: "Design & Brand",
         Lines: <hr className="w-28" />,
         Mynumber: "03",
@@ -24,7 +24,7 @@ const managerdata = [
         bgGround: "https://images.pexels.com/photos/760714/pexels-photo-760714.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
-        id: 4,
+        id: 3,
         Concept: "Market & Advertise",
         Lines: <hr className="w-28" />,
         Mynumber: "04",
