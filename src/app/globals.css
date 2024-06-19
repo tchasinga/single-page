@@ -45,6 +45,13 @@ body {
 }
 
 @media only  screen and (max-width: 468px) {
+  .border-2ing{
+    position: relative;
+    left: -8%;
+    width: 95%;
+  }
+  
+
 }
 
 

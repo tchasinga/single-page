@@ -4,7 +4,7 @@ import Navbars from './Navbars';
 
 const ExampleComponent = () => {
   return (
-    <div className="">
+    <div className="max-w-full mx-auto w-full">
       <Navbars/>
     </div>
   );
