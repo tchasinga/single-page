@@ -10,7 +10,10 @@ export default function Home() {
   return (
     <main className="">
       <Keeper/>
-      <Today/>
+      
+      <div className="max-w-4xl mx-auto w-full max-h-screen pt-5">
+         <Today/>
+      </div>
     </main>
   );
 }
