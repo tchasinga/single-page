@@ -12,9 +12,9 @@ export default function Today() {
                         {people.Lines}
                         <p className="text-sm text-slate-700">{people.detailing}</p>
                     </div>
-                    <div className="">
-                        <h1 className="text-slate-800 uppercase text-[300px] font-bold ">{people.Mynumber}</h1>
-                    </div>
+                    <div className="text-transparent bg-cover bg-clip-text" style={{backgroundImage: `url(${people.bgGround})`}}>
+    <h1 className="uppercase text-[300px] font-black">{people.Mynumber}</h1>
+</div>
                 </div>
             ))
          }
