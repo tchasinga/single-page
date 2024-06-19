@@ -36,7 +36,7 @@ export default function Navbars() {
                     className={`z-[999] ${open ? "text-gray-200" : "text-gray-100"} text-3xl md:hidden m-5`}
                 >
                     <svg
-                        className="w-8 h-8 text-slate-200 myTrabs border-2 border-red-900"
+                        className="w-8 h-8 text-slate-200 "
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
