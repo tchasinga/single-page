@@ -48,7 +48,7 @@ export default function Small() {
       >
         <p>A car management system is a software solution designed to help organizations <br /> manage their fleet of vehicles efficiently</p>
       </motion.div>
-      <div className="mt-3 flex -space-x-2 pt-3">
+      <div className="mt-3 flex -space-x-2 pt-3 ">
         {[
           "https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
           "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
@@ -58,7 +58,7 @@ export default function Small() {
         ].map((src, index) => (
           <motion.img
             key={index}
-            className="inline-block h-12 w-12 rounded-full ring-2 ring-white"
+            className="inline-block h-12 w-12 spinerCode rounded-full ring-2 ring-white"
             src={src}
             alt=""
             whileHover="hover"
