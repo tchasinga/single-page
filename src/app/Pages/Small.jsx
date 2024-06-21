@@ -58,7 +58,7 @@ export default function Small() {
         ].map((src, index) => (
           <motion.img
             key={index}
-            className="inline-block h-12 w-12 spinerCode rounded-full ring-2 ring-white"
+            className="inline-block h-12 w-12  rounded-full ring-2 ring-white"
             src={src}
             alt=""
             whileHover="hover"
